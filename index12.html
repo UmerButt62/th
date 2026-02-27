@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OBS Studio</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <style>
+    body {
+      background-color: #0f1f4a;
+      color: #ffffff;
+    }
+
+    .navbar {
+      background-color: #162a6a;
+    }
+
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: 700;
+    }
+
+    .release-text {
+      opacity: 0.85;
+      margin-bottom: 30px;
+    }
+
+    .btn-platform {
+      background-color: #2f6df6;
+      border: none;
+      padding: 14px 36px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 8px;
+    }
+
+    .btn-platform:hover {
+      background-color: #2459c9;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: 30px auto 0;
+      font-size: 1.05rem;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">OBS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Download</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <h1>OBS Studio</h1>
+
+    <div class="release-text mt-3">
+      Latest Releases • Windows 32.0.4 • macOS 32.0.4 • Linux 32.0.2
+    </div>
+
+    <div class="mt-4">
+      <button class="btn btn-platform">Windows</button>
+      <button class="btn btn-platform">macOS</button>
+      <button class="btn btn-platform">Linux</button>
+    </div>
+
+    <p>
+      Free and open source software for video recording and live streaming.
+      Download and start streaming quickly and easily on Windows, Mac or Linux.
+    </p>
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
